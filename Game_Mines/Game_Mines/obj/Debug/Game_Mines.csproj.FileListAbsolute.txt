@@ -1,0 +1,10 @@
+D:\GitHub\webinar_hillel_20210416\Game_Mines\Game_Mines\bin\Debug\Game_Mines.exe.config
+D:\GitHub\webinar_hillel_20210416\Game_Mines\Game_Mines\bin\Debug\Game_Mines.exe
+D:\GitHub\webinar_hillel_20210416\Game_Mines\Game_Mines\bin\Debug\Game_Mines.pdb
+D:\GitHub\webinar_hillel_20210416\Game_Mines\Game_Mines\obj\Debug\Game_Mines.csprojAssemblyReference.cache
+D:\GitHub\webinar_hillel_20210416\Game_Mines\Game_Mines\obj\Debug\Game_Mines.Form1.resources
+D:\GitHub\webinar_hillel_20210416\Game_Mines\Game_Mines\obj\Debug\Game_Mines.Properties.Resources.resources
+D:\GitHub\webinar_hillel_20210416\Game_Mines\Game_Mines\obj\Debug\Game_Mines.csproj.GenerateResource.cache
+D:\GitHub\webinar_hillel_20210416\Game_Mines\Game_Mines\obj\Debug\Game_Mines.csproj.CoreCompileInputs.cache
+D:\GitHub\webinar_hillel_20210416\Game_Mines\Game_Mines\obj\Debug\Game_Mines.exe
+D:\GitHub\webinar_hillel_20210416\Game_Mines\Game_Mines\obj\Debug\Game_Mines.pdb
