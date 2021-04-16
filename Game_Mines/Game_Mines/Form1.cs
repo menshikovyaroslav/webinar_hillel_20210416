@@ -58,9 +58,18 @@ namespace Game_Mines
                     Calculate(element);
                 }
             }
-            else if (e.Button == MouseButtons.Right)
+            else if (e.Button == MouseButtons.Right && !element.IsShow)
             {
-                MessageBox.Show("Right");
+                if (element.IsMarkedAsBomb)
+                {
+                    btn.Image = null;
+                    element.IsMarkedAsBomb = false;
+                }
+                else
+                {
+                    btn.Image = Properties.Resources.bomb;
+                    element.IsMarkedAsBomb = true;
+                }
             }
         }
 
