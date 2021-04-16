@@ -12,6 +12,7 @@ namespace Game_Mines.Classes
         public int X { get; set; }
         public int Y { get; set; }
         public bool IsBomb { get; set; }
+        public bool IsShow { get; set; }
 
         public Element()
         {
