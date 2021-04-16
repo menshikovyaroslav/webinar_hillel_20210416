@@ -27,8 +27,12 @@ namespace Game_Mines
             {
                 for (int j = 0; j < Options.MapHeightCount; j++)
                 {
-                    var btn = new Button() { Width = Options.MapElementWidth,  Height = Options.MapElementHeight, Left = i * Options.MapElementWidth, Top = j * Options.MapElementHeight };
-                    btn.Click += Btn_Click;
+                    var btn = new Button() { Width = Options.MapElementWidth, Height = Options.MapElementHeight, Left = i * Options.MapElementWidth, Top = j * Options.MapElementHeight };
+                    btn.MouseDown += Btn_Click;
+
+                    var element = new Element() { X = i, Y = j };
+
+                    if (element.IsBomb) btn.Text = "b";
 
                     panel.Controls.Add(btn);
                 }
@@ -37,9 +41,16 @@ namespace Game_Mines
             this.Controls.Add(panel);
         }
 
-        private void Btn_Click(object sender, EventArgs e)
+        private void Btn_Click(object sender, MouseEventArgs e)
         {
-            
+            if (e.Button == MouseButtons.Left)
+            {
+                
+            }
+            else if (e.Button == MouseButtons.Right)
+            {
+                MessageBox.Show("Right");
+            }
         }
     }
 }
